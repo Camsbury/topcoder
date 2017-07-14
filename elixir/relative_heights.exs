@@ -38,7 +38,7 @@ defmodule RelativeHeights do
     {profiler, original}
   end
 
-  @doc ""
+  @doc """
   Return all the permutations of a building being removed.
   """
   defp permute(tup) do
